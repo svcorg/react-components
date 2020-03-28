@@ -35,12 +35,12 @@
   "devDependencies": {
     "prettier": "^2.0.2",
     "rollup": "^2.2.0",
-    "typescript": "^3.8.3"
-  },
-  "dependencies": {
+    "typescript": "^3.8.3",
     "@rollup/plugin-typescript": "^4.0.0",
-    "@types/react": "^16.9.26",
-    "react": "^16.13.1"
+    "@types/react": "^16.9.26"
   },
-  "gitHead": "8b92e8e97687fb34b623af7eb84ac9adf1e00d05"
+  "gitHead": "8b92e8e97687fb34b623af7eb84ac9adf1e00d05",
+  "peerDependencies": {
+    "react": ">= 16.10.1"
+  }
 }
