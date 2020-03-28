@@ -1,0 +1,19 @@
+{
+  "name": "@svc/react-components",
+  "version": "0.0.1",
+  "description": "React Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "lerna run test",
+    "build": "lerna run build",
+    "publish": "lerna run publish",
+    "lerna": "lerna"
+  },
+  "author": "Chaitanya K Kamatham <kamthamc@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": "https://github.com/svcorg/react-components.git",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
