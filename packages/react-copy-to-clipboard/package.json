@@ -37,5 +37,6 @@
     "@rollup/plugin-typescript": "^4.0.0",
     "@types/react": "^16.9.26",
     "react": "^16.13.1"
-  }
+  },
+  "gitHead": "8b92e8e97687fb34b623af7eb84ac9adf1e00d05"
 }
