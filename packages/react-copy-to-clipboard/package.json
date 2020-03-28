@@ -18,6 +18,7 @@
     "dist",
     "types"
   ],
+  "types": "./types/index.d.ts",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
@@ -27,7 +28,8 @@
     "url": "git+https://github.com/svcorg/react-components.git"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prebuild": "rimraf dist types"
   },
   "bugs": {
     "url": "https://github.com/svcorg/react-components/issues"
