@@ -1,16 +1,18 @@
 import * as React from 'react';
 import copyText from './CopyText';
 
-function copyToClipboard <T extends (HTMLInputElement | HTMLElement)>() {
+const copyToClipboard = <T extends (HTMLInputElement | HTMLElement)>() => {
   const ref = React.useRef<T>(null);
   const setClipboard = () => {
+    let status = false;
     if(ref !== null && ref.current !== null) {
       if(ref.current instanceof HTMLInputElement) {
-        copyText(ref.current.value)
+        status = copyText(ref.current.value)
       } else if(ref.current instanceof HTMLElement) {
-        copyText(ref.current.textContent);
+        status = copyText(ref.current.textContent);
       }
     }
+    return status;
   };
   return [ref, setClipboard];
 }
