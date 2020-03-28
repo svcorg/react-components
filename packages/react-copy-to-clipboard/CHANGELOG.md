@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.10 (2020-03-28)
+
+
+### Bug Fixes
+
+* fixed export ([c860d0d](https://github.com/svcorg/react-components/commit/c860d0df1c96409e37467256e44672979e9dfeae))
+
+
+
+
+
 ## 0.1.9 (2020-03-28)
 
 
