@@ -29,7 +29,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         if: startsWith(github.event.head_commit.message, 'chore(release)') == false
-        run: git config --global user.email "kamthamc@users.noreply.github.com"
-        run: git config --global user.name "Chaitanya K Kamatham"
-        run: npm install && npm run bootstrap && npm run build
-        run: npm run publish
+        run: make release
