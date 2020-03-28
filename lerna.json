@@ -21,6 +21,17 @@
     },
     "run": {
       "npmClient": "npm"
+    },
+    "version": {
+      "allowBranch": "master",
+      "conventionalCommits": true,
+      "exact": true,
+      "message": "chore(release): publish %s [ci skip]",
+      "forcePublish": true,
+      "noGitReset": true,
+      "signGitCommit": false,
+      "signGitTag": false,
+      "createRelease": "github"
     }
   }
 }
