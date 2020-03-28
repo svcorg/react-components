@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.6 (2020-03-28)
+
+
+### Bug Fixes
+
+* update npm access ([e6adc4e](https://github.com/svcorg/react-components/commit/e6adc4e4d235c056d51bc730b744376920a96e9b))
+
+
+
+
+
 ## 0.1.5 (2020-03-28)
 
 
