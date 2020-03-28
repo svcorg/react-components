@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.9 (2020-03-28)
+
+
+### Bug Fixes
+
+* update copy logic ([ebb6046](https://github.com/svcorg/react-components/commit/ebb60465eac7bca5af13c3f006a85d0f89b69f06))
+
+
+
+
+
 ## 0.1.8 (2020-03-28)
 
 
