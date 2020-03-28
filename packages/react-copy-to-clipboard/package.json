@@ -12,10 +12,11 @@
   "main": "dist/index.js",
   "directories": {
     "lib": "lib",
-    "test": "__tests__"
+    "types": "types"
   },
   "files": [
-    "dist"
+    "dist",
+    "types"
   ],
   "repository": {
     "type": "git",
