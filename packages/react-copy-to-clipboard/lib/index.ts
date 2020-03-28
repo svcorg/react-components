@@ -1,7 +1,7 @@
 import * as React from 'react';
 import copyText from './CopyText';
 
-function CopyToClipboard <T extends (HTMLInputElement | HTMLElement)>() {
+function copyToClipboard <T extends (HTMLInputElement | HTMLElement)>() {
   const ref = React.useRef<T>(null);
   const setClipboard = () => {
     if(ref !== null && ref.current !== null) {
