@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.8 (2020-03-28)
+
+
+### Bug Fixes
+
+* update publish config ([fb076b9](https://github.com/svcorg/react-components/commit/fb076b9c6452a991ab47a2bbfe6fc78d486a3caf))
+
+
+
+
+
 ## 0.1.7 (2020-03-28)
 
 
