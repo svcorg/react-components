@@ -4,9 +4,11 @@
   "description": "React Components",
   "main": "index.js",
   "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
     "test": "lerna run test",
     "build": "lerna run build",
     "publish": "lerna run publish",
+    "clean": "lerna clean",
     "lerna": "lerna"
   },
   "author": "Chaitanya K Kamatham <kamthamc@users.noreply.github.com>",

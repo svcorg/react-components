@@ -1,16 +1,26 @@
 {
   "packages": ["packages/*"],
   "version": "independent",
-  "npmClient": "yarn",
+  "npmClient": "npm",
   "command": {
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
       "message": "chore(release): publish",
-      "registry": "https://npm.pkg.github.com"
+      "registry": "https://npm.pkg.github.com",
+      "publishConfig": {
+        "directory": "dist"
+      }
     },
     "bootstrap": {
-      "ignore": "component-*",
-      "npmClientArgs": ["--no-package-lock"]
+      "npmClientArgs": []
+    },
+    "create": {
+      "access": "public",
+      "private": false,
+      "license": "MIT"
+    },
+    "run": {
+      "npmClient": "npm"
     }
   }
 }

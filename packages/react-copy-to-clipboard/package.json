@@ -1,0 +1,40 @@
+{
+  "name": "@svc/react-copy-to-clipboard",
+  "version": "0.0.1",
+  "description": "React component for copy to clipboard",
+  "keywords": [
+    "react",
+    "clipboard"
+  ],
+  "author": "Chaitanya <kamthamc@users.noreply.github.com>",
+  "homepage": "https://github.com/svcorg/react-components#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svcorg/react-components.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/svcorg/react-components/issues"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.2",
+    "rollup": "^2.2.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@rollup/plugin-typescript": "^4.0.0",
+    "@types/react": "^16.9.26",
+    "react": "^16.13.1"
+  }
+}
