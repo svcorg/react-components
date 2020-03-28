@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.3 (2020-03-28)
+
+
+### Bug Fixes
+
+* update makefile and release config ([1016d71](https://github.com/svcorg/react-components/commit/1016d7118393ff22c01f3777b66bb54b732086eb))
+
+
+
+
+
 ## [0.1.2](https://github.com/svcorg/react-components/compare/@svc/react-copy-to-clipboard@0.1.1...@svc/react-copy-to-clipboard@0.1.2) (2020-03-28)
 
 **Note:** Version bump only for package @svc/react-copy-to-clipboard
