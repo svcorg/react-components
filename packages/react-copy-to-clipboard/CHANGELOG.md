@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.12 (2020-03-28)
+
+
+### Bug Fixes
+
+* update types ([05d7461](https://github.com/svcorg/react-components/commit/05d74616b6c37ffe27971f612073b43bdf05c361))
+
+
+
+
+
 ## 0.1.11 (2020-03-28)
 
 **Note:** Version bump only for package @svc/react-copy-to-clipboard
