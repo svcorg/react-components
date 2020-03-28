@@ -4,7 +4,7 @@
   "description": "React Components",
   "main": "index.js",
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "lerna bootstrap",
     "test": "lerna run test",
     "build": "lerna run build",
     "publish": "lerna publish --yes --registry=https://registry.npmjs.org",
