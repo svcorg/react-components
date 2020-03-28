@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.4 (2020-03-28)
+
+
+### Bug Fixes
+
+* update bootstrap ([5da8077](https://github.com/svcorg/react-components/commit/5da807714eb761159d6f940da294a6ae68e3566f))
+
+
+
+
+
 ## 0.1.3 (2020-03-28)
 
 
