@@ -7,7 +7,7 @@
     "bootstrap": "lerna bootstrap",
     "test": "lerna run test",
     "build": "lerna run build",
-    "publish": "lerna publish --yes --registry=https://registry.npmjs.org",
+    "publish": "lerna publish",
     "clean": "lerna clean",
     "lerna": "lerna"
   },

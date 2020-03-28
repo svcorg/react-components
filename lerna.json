@@ -7,10 +7,8 @@
       "access": "public",
       "ignoreChanges": ["ignored-file", "*.md"],
       "message": "chore(release): publish",
-      "registry": "https://npm.pkg.github.com",
-      "publishConfig": {
-        "directory": "dist"
-      }
+      "registry": "https://registry.npmjs.org",
+      "yes": true
     },
     "bootstrap": {
       "npmClientArgs": []
