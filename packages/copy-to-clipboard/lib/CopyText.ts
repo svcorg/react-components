@@ -23,7 +23,6 @@ const copyText = (text: string) => {
     if (!success) {
       throw new Error("copy command was unsuccessful");
     }
-    body.removeChild(copyElement);
   
   } catch (err) {
     console.error("unable to copy using execCommand: ", err);
