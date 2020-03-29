@@ -1,6 +1,6 @@
 {
   "name": "@svc/react-copy-to-clipboard",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "React component for copy to clipboard",
   "keywords": [
     "react",
