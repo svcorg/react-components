@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.16 (2020-03-29)
+
+
+### Bug Fixes
+
+* remove span ([88f2a81](https://github.com/svcorg/react-components/commit/88f2a81af6d7d6fc4b51439b3a7ae3d35d250da4))
+
+
+
+
+
 ## 0.1.15 (2020-03-29)
 
 
