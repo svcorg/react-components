@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0 (2020-04-05)
+
+
+* feat!: multiple outputs format support and minification ([0d951d4](https://github.com/svcorg/react-components/commit/0d951d4f9a31ee10617811bf8351cb6c81b2d9c3))
+
+
+### BREAKING CHANGES
+
+* Supporting es(default dist/index.js) cjs, amd, umd, system, iife
+and minification
+
+
+
+
+
 ## 0.1.18 (2020-03-29)
 
 **Note:** Version bump only for package @svc/react-copy-to-clipboard
